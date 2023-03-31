@@ -1,6 +1,0 @@
-﻿  D1109070_basic.c
-C:\Users\jerry\OneDrive - 逢甲大學\程式設計作業\程式設計III\poker_basic\poker_basic\D1109070_basic.c(21,8): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
-  D1109070_basic_card.c
-C:\Users\jerry\OneDrive - 逢甲大學\程式設計作業\程式設計III\poker_basic\poker_basic\D1109070_basic_card.c(28,7): warning C4013: 'rand' 未定義; 假設 extern 傳回整數
-  正在產生程式碼...
-  poker_basic.vcxproj -> C:\Users\jerry\OneDrive - 逢甲大學\程式設計作業\程式設計III\poker_basic\x64\Debug\poker_basic.exe
