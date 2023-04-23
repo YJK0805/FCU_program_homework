@@ -5,8 +5,8 @@ int main(){
     cin.tie(0);
     string s;
     char m[128];
-    m['('] = ')',m['{'] = '}',m['['] = ']';
-    while(cin >> s){
+    m['('] = ')',m['{'] = '}',m['['] = ']',m['<'] = '>';
+    while(getline(cin,s)){
         stack<char> st;
         for(int i = 0;i < s.size();i++){
             if(!st.empty()){
