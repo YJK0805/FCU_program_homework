@@ -1,3 +1,6 @@
 [submodule "3rd/dinomodule"]
 	path = 3rd/dinomodule
 	url = https://github.com/FCU1B2022/projectdino-YJK0805.git
+[submodule "4th/tetrismodule"]
+	path = 4th/tetrismodule
+	url = https://github.com/FCU1B2022/projecttetris-YJK0805.git
