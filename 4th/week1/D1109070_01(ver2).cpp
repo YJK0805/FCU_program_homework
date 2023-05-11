@@ -8,10 +8,22 @@ int main(){
     m['('] = ')',m['{'] = '}',m['['] = ']',m['<'] = '>';
     while(getline(cin,s)){
         stack<char> st;
-        for(auto &i : s){
-        	!st.empty() ? (m[st.top()] == i ? st.pop() : st.push(i)) : st.push(i);
+        for(int i = 0;i < s.size();i++){
+            if(!st.empty()){
+                if(m[st.top()] == s[i]){
+                    st.pop();
+                }else{
+                    st.push(s[i]);
+                }
+            }else{
+                st.push(s[i]);
+            }
         }
-        cout << (st.empty() ? "True\n" : "False\n");
+        if(st.empty()){
+        	cout << "True\n";
+        }else{
+        	cout << "False\n";
+        }
     }
     return 0;
 }

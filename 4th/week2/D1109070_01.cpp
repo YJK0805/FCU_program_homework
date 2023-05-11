@@ -8,7 +8,7 @@ typedef struct node{
 }Node;
 queue<Node> q;
 int d[4][2] = {{-1,0},{0,1},{1,0},{0,-1}};
-bool check(vector<vector<int>> v){
+bool check(vector<vector<int>> &v){
 	for(int i = 0,k = 1;i < 3;i++){
 		for(int j = 0;j < 3;j++,k++){
 			if(k == 9){
@@ -20,7 +20,7 @@ bool check(vector<vector<int>> v){
 	}
 	return true;
 }
-bool over(int x,int y){
+bool over(int &x,int &y){
 	return x >= 0 && x < 3 && y >= 0 && y < 3;
 }
 int main(){
