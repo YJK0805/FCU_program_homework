@@ -2,8 +2,7 @@
 using namespace std;
 struct TreeNode{
     int val;
-    TreeNode *left;
-    TreeNode *right;
+    TreeNode *left,*right;
     TreeNode(int x) : val(x),left(NULL),right(NULL){}
 };
 TreeNode* insert(TreeNode* root,int val){
